@@ -65,3 +65,32 @@ nav ul li{
     gap: 0px;
    
 }
+.action{
+    display: flex;
+    gap: 350px;
+    margin-top: 80px;
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 80px;
+}
+.h2{
+    font-weight: bold;
+    color: #252432;
+}
+.h5{
+    font-weight: 0px;
+    color: #252432;
+}
+.btn-launch{
+    background-color:#4E47FF;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5%;
+    border: none;
+    
+}
+.webflow{
+    border-radius: 10%;
+}
