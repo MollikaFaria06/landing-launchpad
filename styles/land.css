@@ -293,3 +293,36 @@ nav ul li{
     background-color: yellow;
     color: black;
 }
+.last-nav ul{
+    display: flex;
+    margin-left: 50px;
+    
+    
+}
+.footer{
+    background-color: whitesmoke;
+    display: inline-block;
+    align-items: center;
+    width: 1350px;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 80px;
+    
+}
+.last-nav ul li{
+    list-style: none;
+    margin-left: 185px;
+    gap: 5px;
+    color: #4b4b4c;
+      
+    
+}
+.logos{
+    font-size: 60px;
+    color: #3c36ec;
+}
+.ready{
+    color: #4b4b4c;
+}
