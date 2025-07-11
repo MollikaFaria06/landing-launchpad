@@ -163,6 +163,7 @@ nav ul li{
 .card{
     width: 250px;
     height: 220px;
+    margin-left: 20px;
     border-radius: 10px;
     border: 2px solid rgb(253, 252, 252);
     padding: 10px;
@@ -172,9 +173,12 @@ nav ul li{
 }
 .card-container{
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 10px;
   flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 0 auto;
+  
   
 }
 
@@ -201,3 +205,40 @@ nav ul li{
     display: block;
 }
 
+.better{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.better h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.better h6{
+    text-align: center;
+    color: #4b4b4c;
+}
+.btn-free{
+    background-color: #3c36ec;
+    color: white;
+    border-radius: 5%;
+    padding: 8px;
+}
+.wc-mini{
+    margin-top: 40px;
+    border-radius: 5%;
+}
+.focus{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(251, 246, 246);
+    max-width: 1600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 160px;
+    height: 500px;
+    margin-top: 60px;
+    
+}
