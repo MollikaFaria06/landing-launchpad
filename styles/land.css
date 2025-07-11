@@ -242,3 +242,54 @@ nav ul li{
     margin-top: 60px;
     
 }
+.touch-1{
+    text-align: left;
+    margin-left: 140px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.form{
+    align-items:center;
+    margin-right: 220px;
+}
+.touch{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.btn-primary{
+    width: 400px;
+    height: 40px;
+    background-color: #4E47FF;
+    color: white;
+}
+.email{
+    width: 395px;
+    height: 30px;
+}
+.name{
+    width: 395px;
+    height: 30px;
+}
+
+.btn-sign:hover{
+        background-color: yellow;
+        color: black;
+}
+.btn-free:hover{
+    background-color: yellow;
+    color: black;
+}
+.btn-stay:hover{
+    background-color: yellow;
+    color: black;
+}
+.btn-launch:hover{
+    background-color: yellow;
+    color: black;
+}
+.btn-primary:hover{
+    background-color: yellow;
+    color: black;
+}
