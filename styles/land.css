@@ -115,9 +115,10 @@ nav ul li{
     text-align: right;
 }
 .productive {
-    max-width: 1050px;
-    margin: 60px auto;
-    background-color: #c6c5eb;
+    max-width: 1120px;
+    margin-right: 140px;
+    margin-left: 140px;
+    background-color: #e9e8f7;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
@@ -140,3 +141,63 @@ nav ul li{
     font-size: x-small;
     
 }
+
+
+.feedback {
+    max-width: 1120px;
+    margin-left: 140px;
+    text-align: center;
+    padding: 20px;
+    background-color: none;
+}
+
+.feedback h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.card{
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    border: 2px solid rgb(253, 252, 252);
+    padding: 10px;
+    text-align: left;
+    box-shadow: rgb(239, 236, 236);
+    background-color: whitesmoke;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.star{
+    width: 10%;
+    height: 20px;   
+}
+.avater{
+    border-radius: 50%;
+    width: 50px;
+}
+.avater,.review{
+    display: inline-block;
+    gap: 100px;
+}
+.review h4,h6{
+    color: #252432;
+    text-align: left;
+}
+.card h5{
+    color: #252432;
+}
+.feedback h2, .card{
+    display: block;
+}
+
